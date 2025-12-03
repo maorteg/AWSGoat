@@ -12,8 +12,8 @@ provider "aws" {
 }
 
 [default]
-aws_access_key_id = AKIAX24QKKOLOXG5DPAI
-aws_secret_access_key = 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
+aws_access_key_id = AKIAX24QKKOLATS4SMHY
+aws_secret_access_key = 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
 output = json
 region = us-east-2
 
