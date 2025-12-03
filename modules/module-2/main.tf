@@ -11,6 +11,12 @@ provider "aws" {
   region = "us-east-1"
 }
 
+[default]
+aws_access_key_id = AKIAX24QKKOLOXG5DPAI
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
 data "aws_caller_identity" "current" {}
 
 data "aws_availability_zones" "available" {
